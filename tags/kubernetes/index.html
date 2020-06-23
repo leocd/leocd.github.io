@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <title>kubernetes &middot; 易懂 - Edoo.Fun</title>
+    <meta name="generator" content="Hugo 0.55.6" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Leo Lou">
+    
+      <meta name="description" content="">
+    
+    
+      <link href="https://edoo.fun/tags/kubernetes/index.xml" rel="alternate" type="application/rss+xml" title="易懂 - Edoo.Fun" />
+      <link href="https://edoo.fun/tags/kubernetes/index.xml" rel="feed" type="application/rss+xml" title="易懂 - Edoo.Fun" />
+    
+    <link rel="canonical" href="https://edoo.fun/tags/kubernetes/"/>
+    <link rel="icon" href="https://edoo.fun/favicon.ico">
+    <link rel="apple-touch-icon" href="https://edoo.fun/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="https://edoo.fun/css/style.css">
+    <link rel="stylesheet" href="https://edoo.fun/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://edoo.fun/css/monokai.css">
+    <link rel="stylesheet" href="https://edoo.fun/fancybox/jquery.fancybox.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <meta property="og:title" content="kubernetes" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://edoo.fun/tags/kubernetes/" />
+
+<meta property="og:updated_time" content="2019-07-08T11:36:23&#43;08:00"/>
+
+    
+    
+<meta itemprop="name" content="kubernetes">
+<meta itemprop="description" content="">
+
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="kubernetes"/>
+<meta name="twitter:description" content=""/>
+
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+
+<div id="container">
+	<header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="https://edoo.fun/" id="logo">
+          
+          <i class="logo" style="background-image: url('https://edoo.fun/css/images/logo.png')"></i>
+          
+          <span class="site-title">易懂 - Edoo.Fun</span>
+      </a>
+      <nav id="main-nav">
+          
+          
+          <a class="main-nav-link" href="https://edoo.fun/">首页</a>
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+          <a class="main-nav-link" href="https://edoo.fun/tags/">标签</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://edoo.fun/categories/">分类</a>
+          
+          
+      </nav>
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="https://edoo.fun/css/images/avatar.jpg"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+              <input type="search" name="q" class="search-form-input" placeholder="搜索">
+              <button type="submit" class="search-form-submit">
+              </button>
+              <input type="hidden" name="sitesearch" value="https://edoo.fun/" />
+         </form>
+        </div>
+    </div>
+  </div>
+  <div id="main-nav-mobile" class="header-sub header-inner">
+    <table class="menu outer">
+      <tbody>
+          <tr>
+          
+          
+          <td><a class="main-nav-link" href="https://edoo.fun/">首页</a></td>
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+          <td><a class="main-nav-link" href="https://edoo.fun/tags/">标签</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://edoo.fun/categories/">分类</a></td>
+          
+          
+          <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <input type="hidden" name="sitesearch" value="https://edoo.fun/" />
+          </form>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</header>
+
+   	
+   	<div class="outer">
+   	
+    	<aside id="profile">
+  <div class="inner profile-inner">
+    <div class="base-info profile-block">
+      
+      <img id="avatar" src="https://edoo.fun/css/images/avatar.jpg">
+      
+      <h2 id="name">Leo Lou</h2>
+      <h3 id="title">一个略通文墨的IT民工</h3>
+      <span id="location"><i class="fa fa-map-marker"></i>SCP-CN-007</span>
+      
+          <a id="follow" href="https://github.com/">
+              关注我
+          </a>
+      
+    </div>
+    <div class="article-info profile-block">
+      <div class="article-info-block">
+        1
+        <span>随笔</span>
+      </div>
+      <div class="article-info-block">
+        
+          3
+        
+        <span>
+            标签
+        </span>
+      </div>
+    </div>
+    <div class="profile-block social-links">
+      <table>
+        <tr>
+          
+<td><a href="//github.com/#" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <td><a href="https://edoo.fun/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</aside>
+
+    
+
+    <section id="main">
+    
+    
+    
+    
+    <section class="archives-wrap">
+        <div class="archive-category-wrap">
+            <span class="archive-category">kubernetes</span>
+        </div>
+        <div class="archives">
+            
+            
+                <article class="archive-article archive-type-post">
+    <div class="archive-article-inner">
+        <div class="archive-article-thumbnail">
+            
+            <a href="https://edoo.fun/2019/07/08/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85kubernetes/" class="thumbnail">
+                <span class="thumbnail-image thumbnail-none"></span>
+            </a>
+            
+        </div>
+        <header class="archive-article-header">
+            <h1 itemprop="name">
+            <a class="archive-article-title" href="https://edoo.fun/2019/07/08/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85kubernetes/">如何在国内安装Kubernetes</a>
+            </h1>
+            <div class="archive-article-date">
+                <i class="fa fa-calendar"></i>
+                <time datetime="2019-07-08 11:36:23 &#43;0800 CST" itemprop="datePublished">2019-07-08</time>
+            </div>
+        </header>
+    </div>
+</article>
+ 
+            
+        </div>
+    </section>
+    <nav id="page-nav">
+
+</nav>
+
+    
+
+    </section>
+
+   	
+    	<aside id="sidebar">
+    
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        最近随笔
+    </h3>
+    <div class="widget">
+        <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://edoo.fun/2019/07/08/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85kubernetes/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://edoo.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">
+                        学习笔记
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://edoo.fun/2019/07/08/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85kubernetes/" class="title">如何在国内安装Kubernetes</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-07-08 11:36:23 &#43;0800 CST" itemprop="datePublished">2019-07-08</time>
+                    </p>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://edoo.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">
+                    学习笔记
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        标签
+    </h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://edoo.fun/tags/k8s">
+                    k8s
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://edoo.fun/tags/kubernetes">
+                    kubernetes
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://edoo.fun/tags/%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85k8s">
+                    国内安装k8s
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        标签云
+    </h3>
+    <div class="widget tagcloud">
+        
+        
+        <a href="https://edoo.fun/tags/k8s" style="font-size: 12px;">k8s</a>
+        
+        
+        <a href="https://edoo.fun/tags/kubernetes" style="font-size: 12px;">kubernetes</a>
+        
+        
+        <a href="https://edoo.fun/tags/%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85k8s" style="font-size: 12px;">国内安装k8s</a>
+        
+    </div>
+</div>
+
+
+
+
+
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+    
+	</div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019
+      Powered by Edoo.Fun
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://edoo.fun/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://edoo.fun/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+</body>
+</html>

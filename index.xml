@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>易懂 - Edoo.Fun</title>
+    <link>https://edoo.fun/</link>
+    <description>Recent content on 易懂 - Edoo.Fun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 08 Jul 2019 11:36:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://edoo.fun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何在国内安装Kubernetes</title>
+      <link>https://edoo.fun/2019/07/08/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85kubernetes/</link>
+      <pubDate>Mon, 08 Jul 2019 11:36:23 +0800</pubDate>
+      
+      <guid>https://edoo.fun/2019/07/08/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85kubernetes/</guid>
+      <description>前言 &amp;emsp;&amp;emsp;Kubernetes是Google开源的一套容器集群管理系统，目前已经成为事实上的容器编排标准。 &amp;emsp;&amp;e</description>
+    </item>
+    
+  </channel>
+</rss>

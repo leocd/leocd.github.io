@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 易懂 - Edoo.Fun</title>
+    <link>https://edoo.fun/tags/</link>
+    <description>Recent content in Tags on 易懂 - Edoo.Fun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 08 Jul 2019 11:36:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://edoo.fun/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>k8s</title>
+      <link>https://edoo.fun/tags/k8s/</link>
+      <pubDate>Mon, 08 Jul 2019 11:36:23 +0800</pubDate>
+      
+      <guid>https://edoo.fun/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://edoo.fun/tags/kubernetes/</link>
+      <pubDate>Mon, 08 Jul 2019 11:36:23 +0800</pubDate>
+      
+      <guid>https://edoo.fun/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>国内安装k8s</title>
+      <link>https://edoo.fun/tags/%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85k8s/</link>
+      <pubDate>Mon, 08 Jul 2019 11:36:23 +0800</pubDate>
+      
+      <guid>https://edoo.fun/tags/%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85k8s/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

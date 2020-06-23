@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://edoo.fun/categories/</loc>
+    <lastmod>2019-07-08T11:36:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edoo.fun/post/</loc>
+    <lastmod>2019-07-08T11:36:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edoo.fun/tags/</loc>
+    <lastmod>2019-07-08T11:36:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edoo.fun/tags/k8s/</loc>
+    <lastmod>2019-07-08T11:36:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edoo.fun/tags/kubernetes/</loc>
+    <lastmod>2019-07-08T11:36:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edoo.fun/tags/%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85k8s/</loc>
+    <lastmod>2019-07-08T11:36:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edoo.fun/2019/07/08/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%9B%BD%E5%86%85%E5%AE%89%E8%A3%85kubernetes/</loc>
+    <lastmod>2019-07-08T11:36:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://edoo.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2019-07-08T11:36:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edoo.fun/</loc>
+    <lastmod>2019-07-08T11:36:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
